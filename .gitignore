@@ -1,0 +1,15 @@
+# Bỏ qua thư mục công nghệ
+PDK/
+lib.defs
+prefs.xml
+
+# Bỏ qua file rác và log của EDA tools
+run_details/
+star/
+EXTRACT_VIEW/
+cnl/
+synopsys_custom/
+*.log
+*.sh
+
+# Chỉ giữ lại các thư mục block thiết kế (DFF, JKFF, Counter, NAND2, inv), docs và images
